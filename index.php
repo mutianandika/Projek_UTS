@@ -115,8 +115,7 @@ $ar_person = [$person1, $person2, $person3, $person4];
             $no = 1;
             foreach ($ar_person as $obj) :
             ?>
-              <tr class="table-light text-center">
-
+              <tr class="table-light text-center">   
                 <td><?= $no ?></td>
                 <td><?= $obj->tanggal ?></td>
                 <td><?= "P00" . $no ?></td>

@@ -25,7 +25,7 @@ class BMI extends Pasien {
         } else if (self::nilaiBMI() < 30) {
             $ktr = "Obesitas 2";
         } else {
-            $ktr = "Bilangan yang anda masukan salah";
+            $ktr = "";
         }
         return $ktr;
     }
